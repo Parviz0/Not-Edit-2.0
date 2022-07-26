@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.wrapper{
+    width: 100%;
+    margin: 0 ;
+    height: 100vh;
+}
+
+.text{
+    font-size: 52px;
+    text-align: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.inp{
+    width: 321px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    overflow: hidden;
+    font-size: 18px;
+    padding-left: 5px;
+}
+
+.box{
+    display: flex;
+    justify-content: center;
+    /* margin-top: 22px; */
+    position: absolute;
+    top: 60px;
+    left: 270px;
+}
+
+.button{
+    width: 155px;
+    height: 42px;
+    border-radius: 10px;
+    background-color: #0071E3;
+    margin-left: 8px;
+    border: none;
+    font-size: 22px;
+    color: white;
+    cursor: pointer;
+}
+
+.grid{
+    display: grid;
+    grid-template-columns: repeat(1, 800px);
+    grid-auto-rows: 60px;
+    grid-gap: 25px;
+    margin-top: 90px;
+    transform: translate(20%);
+}
+
+.item{
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #F0F0F0;
+    border: 1px solid #007FFF;
+    border-radius: 10px;
+    padding: 21px 0px 0px 25px;
+    position: relative;
+}
+
+.paragraph{
+    font-size: 14px;
+    color: #959090;
+    margin-top: 5px;
+}
+
+.image{
+    height: 15px;
+    position: absolute;
+    right: 25px;
+    top: 23px;
+    cursor: pointer;
+}
+.lop{
+    width: 800px;
+    height: 20px;
+    position: absolute;
+    top: 60px;
+    right: 105px;
+}
+.name{
+    margin-left: 40px;
+}
+.vozrast{
+    margin-left: 200px;
+}
+.des{
+    margin-left: 300px;
+}
+.pol{
+    margin-left: 290px;
+}
+.edit{
+    height: 15px;
+    position: absolute;
+    right: 60px;
+    top: 23px;
+    cursor: pointer;
+}
+.modal_bg{
+    position: absolute;
+    width: 400px;
+    height: 200px;
+    top: -200px;
+    border-radius: 20px;
+    border: solid 2px grey;
+    background-color: aliceblue;
+    left: 480px;
+    transition: 800ms;
+}
+.mg{
+    top: 40px;
+}
+.inop{
+    width: 321px;
+    height: 42px;
+    border-radius: 10px;
+    border: 2px solid #007FFF;
+    overflow: hidden;
+    font-size: 18px;
+    padding-left: 5px;
+    margin-left: 30px;
+    margin-top: 20px;
+}
+.edBtn{
+    border: none;
+    font-size: 22px;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-top: 20px;
+    background-color: #0071E3;
+}
+.txt{
+    position: absolute;
+    left: 5px;
+}
